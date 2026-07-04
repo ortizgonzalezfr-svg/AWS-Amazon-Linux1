@@ -1,167 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AWS Amazon Linux | Administración de Servidores</title>
+    <title>AWS Amazon Linux</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
     <header>
         <div class="container">
-            <h1>AWS Amazon Linux 2023</h1>
-
+            <h1>AWS Amazon Linux</h1>
             <nav>
                 <a href="#inicio">Inicio</a>
                 <a href="#servicios">Servicios</a>
                 <a href="#infraestructura">Infraestructura</a>
-                <a href="#inventario">Base de Datos</a>
+                <a href="#inventario">Inventario</a>
             </nav>
         </div>
     </header>
 
     <section id="inicio" class="hero">
         <div class="container">
-
             <h2>Infraestructura Cloud</h2>
-
-            <p>
-                Implementación de servicios en Amazon Linux 2023 sobre una instancia EC2 de AWS.
-            </p>
-
-            <a href="#servicios" class="btn">
-                Ver Servicios
-            </a>
-
-            <br><br>
-
-            <span class="activo">
-                ✔ Todos los servicios operativos
-            </span>
-
+            <p>Servidores web, bases de datos y almacenamiento en AWS.</p>
+            <a href="#servicios" class="btn">Ver servicios</a>
         </div>
     </section>
 
     <section id="servicios" class="section">
-
         <div class="container">
-
-            <h3>Servicios Implementados</h3>
-
+            <h3>Servicios</h3>
             <div class="grid">
-
                 <div class="card">
-                    <h4>🌐 Servidor Web</h4>
-                    <p>Nginx instalado y configurado para alojar este sitio web.</p>
+                    <h4>Servidor Web</h4>
+                    <p>Nginx en Amazon Linux 2023</p>
                     <span class="activo">Activo</span>
                 </div>
-
                 <div class="card">
-                    <h4>🗄 Base de Datos</h4>
-                    <p>MariaDB 10.5 configurada con la base de datos <strong>inventario</strong>.</p>
+                    <h4>Base de Datos</h4>
+                    <p>MariaDB 10.5</p>
                     <span class="activo">Activo</span>
                 </div>
-
                 <div class="card">
-                    <h4>📁 Servidor FTP</h4>
-                    <p>vsftpd configurado para transferencia segura de archivos.</p>
+                    <h4>Servidor FTP</h4>
+                    <p>vsftpd</p>
                     <span class="activo">Activo</span>
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
     <section id="infraestructura" class="section">
-
         <div class="container">
-
-            <h3>Infraestructura del Servidor</h3>
-
+            <h3>Infraestructura</h3>
             <table>
-
-                <tbody>
-
-                    <tr>
-                        <td><strong>Sistema Operativo</strong></td>
-                        <td>Amazon Linux 2023</td>
-                    </tr>
-
-                    <tr>
-                        <td><strong>Servidor Web</strong></td>
-                        <td>Nginx</td>
-                    </tr>
-
-                    <tr>
-                        <td><strong>Base de Datos</strong></td>
-                        <td>MariaDB 10.5</td>
-                    </tr>
-
-                    <tr>
-                        <td><strong>Servidor FTP</strong></td>
-                        <td>vsftpd</td>
-                    </tr>
-
-                    <tr>
-                        <td><strong>Plataforma Cloud</strong></td>
-                        <td>AWS EC2</td>
-                    </tr>
-
-                    <tr>
-                        <td><strong>Puerto HTTP</strong></td>
-                        <td>80</td>
-                    </tr>
-
-                </tbody>
-
+                <tr>
+                    <td>Sistema Operativo</td>
+                    <td>Amazon Linux 2023</td>
+                </tr>
+                <tr>
+                    <td>Servidor Web</td>
+                    <td>Nginx</td>
+                </tr>
+                <tr>
+                    <td>Base de Datos</td>
+                    <td>MariaDB 10.5</td>
+                </tr>
+                <tr>
+                    <td>Servidor FTP</td>
+                    <td>vsftpd</td>
+                </tr>
+                <tr>
+                    <td>Plataforma</td>
+                    <td>AWS EC2</td>
+                </tr>
             </table>
-
         </div>
-
     </section>
 
     <section id="inventario" class="section">
-
         <div class="container">
-
-            <h3>Base de Datos: inventario</h3>
-
+            <h3>Inventario</h3>
             <p>
-                La base de datos <strong>inventario</strong> contiene la tabla
-                <strong>productos</strong>, creada en MariaDB y con registros de prueba.
+                La base de datos <strong>inventario</strong> contiene productos registrados en MariaDB para pruebas del sistema.
             </p>
 
             <table>
-
                 <thead>
-
                     <tr>
                         <th>ID</th>
-                        <th>Nombre</th>
+                        <th>Producto</th>
                         <th>Descripción</th>
                         <th>Precio</th>
                         <th>Cantidad</th>
                         <th>Fecha de Ingreso</th>
                     </tr>
-
                 </thead>
-
                 <tbody>
-
                     <tr>
                         <td>1</td>
                         <td>Laptop Dell</td>
-                        <td>Equipo portátil</td>
+                        <td>Equipo portátil 16GB RAM</td>
                         <td>$899.99</td>
                         <td>5</td>
                         <td>2025-06-24</td>
                     </tr>
-
                     <tr>
                         <td>2</td>
                         <td>Mouse Logitech</td>
@@ -170,36 +113,15 @@
                         <td>20</td>
                         <td>2025-06-20</td>
                     </tr>
-
                 </tbody>
-
             </table>
-
         </div>
-
     </section>
 
     <footer>
-
         <div class="container">
-
-            <p><strong>Evaluación - Administración de Servidores Linux</strong></p>
-
-            <p>
-                Amazon Linux 2023 | AWS EC2 | Nginx | MariaDB | vsftpd
-            </p>
-
-            <br>
-
-            <p>
-                Desarrollado por <strong>Francisco Ortiz</strong><br>
-                Ingeniería en Ciberseguridad
-            </p>
-
+            <p>&copy; 2026 AWS Amazon Linux</p>
         </div>
-
     </footer>
-
 </body>
-
 </html>
